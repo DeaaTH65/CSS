@@ -8,3 +8,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    height: 100vh;
+    background: url("hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
