@@ -121,13 +121,18 @@ header .navbar {
 
     .navbar .menu-links {
         position: fixed;
-        left: 0;
+        left: -260px;
         top: 0;
         flex-direction: column;
         width: 260px;
         height: 100vh;
         background: #fff;
         padding: 70px 40px 0;
+        transition: left 0.15s ease;
+    }
+
+    header.show-mobile-menu .navbar .menu-links {
+        left: 0;
     }
 
     .navbar a {
